@@ -1,0 +1,8 @@
+s=int(input("Enter side"))
+l=int(input("Enter length"))
+b=int(input("Enter breadth"))
+b1=int(input("enter triangle length"))
+h=int(input("Enter height"))
+print("area of square:",s*s)
+print("area of rectangle:",l*b)
+print("area of triangle:",(1/2)*b1*h)
