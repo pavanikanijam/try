@@ -1,0 +1,49 @@
+.swiper {
+    width: 100%;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background-image: url('src/assets/banner-books/929._SX98_.jpg');
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-image: url('src/assets/banner-books/3273.jpg');
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-image: url('src/assets/banner-books/4214.jpg');
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-image: url('src/assets/banner-books/33917.jpg');
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-image: url('src/assets/banner-books/4667024.jpg');
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-image: url('src/assets/banner-books/39832183.jpg');
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-image: url('src/assets/banner-books/56060300.jpg');
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-image: url('src/assets/banner-books/4667024._SX98_.jpg');
+  }
+  
+  
+  
