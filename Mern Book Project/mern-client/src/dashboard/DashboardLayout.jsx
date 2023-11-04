@@ -1,13 +1,18 @@
-
 import React from 'react'
+import SideBar from './SideBar'
 import { Outlet } from 'react-router-dom'
-import SideBar from './Sidebar'
 
-const dashboardLayout = () => {
+export const DashboardLayout = () => {
   return (
     <div className='flex gap-4 flex-col md:flex-row'>
-        <SideBar/><Outlet/></div>
+      <div>
+      <SideBar/>
+      </div>
+      <Outlet/>
+      {/* <div className='w-full h-screen overflow-y-hidden'>
+        <div className='h-screen bg-blue-500 w-full' id='user'></div>
+        <div className='h-screen bg-slate-300' id='inbox'>inbox</div>
+      </div> */}
+    </div>
   )
 }
-
-export default dashboardLayout
